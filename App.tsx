@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import Loader from './components/Loader.tsx';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import MenuSection from './components/MenuSection';
-import DeliveryModal from './components/DeliveryModal';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import MenuSection from './components/MenuSection.tsx';
+import DeliveryModal from './components/DeliveryModal.tsx';
 // Removed imports from constants.ts as we fetch data now
 import { MenuCategory, MenuItem } from './types';
 
